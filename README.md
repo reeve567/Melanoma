@@ -2,6 +2,18 @@
 
 The source repository for some of the image processing done for the Melanoma Model in my Image processing class
 
+In order to run, you'll need Erlang, and Elixir installed.
+
+Once you have everything set up run:
+
+```
+mix deps.get
+mix compile
+mix run
+```
+
+Just warning that you need images, and when you compile an elixir program for the first time, it runs the code as well.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
